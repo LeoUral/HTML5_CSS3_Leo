@@ -1,11 +1,15 @@
 * {
-     margin: 0;
-     padding: 0;
- }
- /*переменные цвета*/
- 
- @colorLight: #f5f5f5;
- @colorDarck: #445162;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*переменные цвета*/
+
+@colorLight: #f5f5f5;
+@colorDarck: #445162;
+@colorReviews: #ebebeb;
+@colorSignature: #989898;
 
 /*=======================*/
 
@@ -76,22 +80,27 @@
     height: 214px;
     float: right;
 }
+
 .about-product {
     width: 100%;
     min-height: 346px;
     padding: 50px;
     box-sizing: border-box;
 }
+
 .about-product:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
+
 .about-product-desc {
     float: left;
-    width: 56%; /*665px*/
+    width: 56%;
+    /*665px*/
 }
+
 .about-product-title {
     display: block;
     font-family: Arial;
@@ -100,6 +109,7 @@
     text-align: left;
     margin: 0 0 28px 0;
 }
+
 .about-product-text {
     font-family: Arial;
     font-size: 16px;
@@ -107,24 +117,28 @@
     line-height: 1.35;
     margin: 8px 0 0 0;
 }
+
 .about-product-video {
     float: right;
     width: 430px;
     height: 246px;
 }
+
 .dignity {
-     width: 100%;
+    width: 100%;
     min-height: 420px;
     padding: 50px;
-    background-color: @colorLight;    
+    background-color: @colorLight;
     box-sizing: border-box;
 }
+
 .dignity:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
+
 .dignity-title {
     display: block;
     margin: 0;
@@ -134,11 +148,12 @@
     color: @colorDarck;
     margin: 0 0 30px 0;
 }
+
 .dignity-list {
     width: 45%;
     list-style-type: none;
     float: left;
-     line-height: 1.35;
+    line-height: 1.35;
     margin: 0 0 0 50px;
 }
 
@@ -149,6 +164,7 @@
     font-size: 16px;
     text-align: left;
 }
+
 .dignity-list-item:before {
     content: "+";
     display: block;
@@ -163,19 +179,21 @@
     float: left;
     margin: 0 0 0 -40px;
 }
+
 .screenshots {
-     width: 100%;
+    width: 100%;
     min-height: 490px;
     padding: 50px;
     box-sizing: border-box;
-    
 }
+
 .screenshots:after {
-     content: "";
+    content: "";
     display: block;
     width: 100%;
     clear: both;
 }
+
 .screenshots-title {
     display: block;
     font-family: Arial;
@@ -183,29 +201,34 @@
     text-align: center;
     color: @colorDarck;
 }
+
 .screenshots-description_1 {
     width: 49%;
     float: left;
-    margin: -10px 0 0 0;    
+    margin: -10px 0 0 0;
 }
+
 .screenshots-description_2 {
     width: 49%;
     float: right;
-    margin: -10px 0 0 0;    
+    margin: -10px 0 0 0;
 }
+
 .screenshots-wrap {
     margin: 42px 0 0 0;
-    
 }
+
 .screenshots-img {
     width: 200px;
     height: 150px;
     background-color: @colorDarck;
     float: left;
 }
+
 .screenshots-wrap-inner {
     margin: 0 0 0 216px;
 }
+
 .screenshots-subtitle {
     display: block;
     font-family: Arial;
@@ -213,10 +236,208 @@
     text-align: left;
     color: @colorDarck;
 }
+
 .screenshots-text {
     font-family: Arial;
     font-size: 16px;
     text-align: left;
     color: #000;
     margin: 22px 0 0 0;
+}
+
+.reviews {
+    width: 100%;
+    background-color: @colorLight;
+    min-height: 424px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.reviews:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.reviews-title {
+    display: block;
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    color: @colorDarck;
+    padding: 0 0 35px 0;
+}
+
+.reviews-wrap-1 {
+    width: 48%;
+    float: left;
+}
+
+.reviews-wrap-2 {
+    width: 48%;
+    float: right;
+}
+
+.reviews-inner:first-child {
+    margin: 0 0 35px 0;
+}
+
+
+/* ========== треугольники ======= */
+
+.reviews-inner {
+    position: relative;
+}
+
+.reviews-inner:after {
+    content: "";
+    position: absolute;
+    left: 75px;
+    top: 18px;
+    border: 16px solid transparent;
+    border-right: 16px solid @colorReviews;
+}
+
+
+/* ======== конец треугольники ========= */
+
+.reviews-image {
+    width: 75px;
+    height: 75px;
+    float: left;
+    background-color: @colorDarck;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0 30px 0 0;
+}
+
+.reviews-txt {
+    display: block;
+    background-color: @colorReviews;
+    overflow: hidden;
+    padding: 16px;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.reviews-signature {
+    display: block;
+    text-align: left;
+    padding: 16px 0 0 0;
+    color: @colorSignature;
+}
+
+.buy {
+    width: 100%;
+    min-height: 655px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.buy:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.buy-title {
+    display: block;
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    color: @colorDarck;
+    padding: 0 0 35px 0;
+}
+
+.buy-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* переменная стиля - блок прайс*/
+
+.buy-art () {
+    width: 300px;
+    border: 2px solid @colorDarck;
+    background-color: @colorDarck;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.buy-standart {
+    .buy-art();
+    float: left;
+    margin: 0 0 0 90px;
+}
+
+.buy-premium {
+    .buy-art();
+    overflow: hidden;
+    float: left;
+    margin: 0 45px 0 45px;
+}
+
+.buy-lux {
+    .buy-art();
+    overflow: hidden;
+}
+
+.buy-block-title {
+    display: block;
+    padding: 16px 0 0 0;
+    background-color: @colorDarck;
+    color: #fff;
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+}
+
+.buy-price {
+    display: block;
+    color: @colorDarck;
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    padding: 12px 0 12px 0;
+}
+
+.buy-list {
+    color: #fff;
+    list-style-position: inside;
+    padding: 20px 20px 0 20px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.buy-btn {
+    width: 260px;
+    color: @colorDarck;
+    background-color: #fff;
+    margin: 20px;
+    padding: 14px 0 14px 0;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.buy-btn:hover {
+    color: #fff;
+    background-color: @colorDarck;
+    border: 2px solid #fff;
+}
+
+.buy-btn:active {
+    color: #ccc;
+    background-color: @colorReviews;
+    border: 2px solid transparent;
 }
