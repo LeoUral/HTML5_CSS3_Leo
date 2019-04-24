@@ -307,7 +307,6 @@
   background-color: #445162;
   border-radius: 7px;
   box-sizing: border-box;
-  float: left;
   margin: 0 0 0 90px;
 }
 .buy-premium {
@@ -316,8 +315,6 @@
   background-color: #445162;
   border-radius: 7px;
   box-sizing: border-box;
-  overflow: hidden;
-  float: left;
   margin: 0 45px 0 45px;
 }
 .buy-lux {
@@ -326,7 +323,6 @@
   background-color: #445162;
   border-radius: 7px;
   box-sizing: border-box;
-  overflow: hidden;
 }
 .buy-block-title {
   display: block;
