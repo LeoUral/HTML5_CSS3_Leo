@@ -437,3 +437,195 @@
     background-color: @colorReviews;
     border: 2px solid transparent;
 }
+
+.contacts {
+    width: 100%;
+    min-height: 535px;
+    padding: 50px 50px 30px 50px;
+    box-sizing: border-box;
+    background-color: @colorDarck;
+}
+
+.contacts:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.contacts-title {
+    display: block;
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 0 0 30px 0;
+}
+
+.contacts-form {
+    width: 500px;
+    margin: 0 0 0 200px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.contacts-form-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    margin: 0 0 20px 0;
+}
+/*================= переменная для стиля -art ====================*/
+.contacts-form-art {
+    font-family: Arial;
+    font-size: 16px;
+    color: @colorDarck;
+    padding: 0 0 0 10px;
+}
+.contacts-form-input::-webkit-input-placeholder {
+    .contacts-form-art
+}
+.contacts-form-input::-moz-placeholder {
+    .contacts-form-art
+}
+.contacts-form-input:-moz-placeholder {
+    .contacts-form-art
+}
+.contacts-form-input:-ms-input-placeholder {
+    .contacts-form-art
+}
+.contacts-form-area {
+    width: 100%;
+    height: 170px;
+    border-radius: 7px;
+    margin: 0 0 20px 0;
+}
+/*================= переменная для стиля -art ====================*/
+.contacts-form-area-art {
+    font-family: Arial;
+    font-size: 16px;
+    color: @colorDarck;
+    padding: 13px 0 0 10px;
+}
+.contacts-form-area::-webkit-input-placeholder {
+    .contacts-form-area-art
+}
+.contacts-form-area::-moz-placeholder {
+    .contacts-form-area-art;
+}
+.contacts-form-area:-moz-placeholder {
+    .contacts-form-area-art
+}
+.contacts-form-area:-ms-placeholder {
+    .contacts-form-area-art;
+}
+
+.contacts-form-btn {
+    width: 140px;
+    height: 40px;
+    margin: 0 36% 20px 36%;
+    color: @colorDarck;
+    background-color: #fff;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.contacts-form-btn:hover {
+    color: #fff;
+    background-color: @colorDarck;
+    border: 2px solid #fff;
+}
+
+.contacts-form-btn:active {
+    color: #ccc;
+    background-color: @colorReviews;
+    border: 2px solid transparent;
+}
+
+.contacts-social {
+    float: right;
+    width: 435px;
+    box-sizing: border-box;
+}
+
+.contacts-social-list {
+    list-style-type: none;
+    color: #fff;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.contacts-social-item1,
+.contacts-social-item2,
+.contacts-social-item3,
+.contacts-social-item4 {
+    display: block;
+    margin: 0 0 30px 30px;
+}
+
+.contacts-social-item1:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-image: url(/img/skype-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -3px 4px 0 0;
+    float: left;
+}
+
+.contacts-social-item2:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-image: url(/img/icq-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -3px 4px 0 0;
+    float: left;
+}
+
+.contacts-social-item3:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-image: url(/img/email-icon1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -3px 4px 0 0;
+    float: left;
+}
+
+.contacts-social-item4:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-image: url(/img/phone-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -3px 4px 0 0;
+    float: left;
+}
+
+.contacts-social-links {
+    width: 240px;
+    height: 44px;
+    margin: 0 0 0 26px;
+}
+
+.contacts-copiright {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 7px 0 7px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: @colorDarck;
+    font-family: Arial;
+    font-size: 12px;
+}
