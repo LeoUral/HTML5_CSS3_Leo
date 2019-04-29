@@ -362,6 +362,7 @@
   font-weight: 700;
   border-radius: 10px;
   border: 2px solid transparent;
+  outline: inherit;
 }
 .buy-btn:hover {
   color: #fff;
@@ -405,6 +406,7 @@
   height: 40px;
   border-radius: 7px;
   margin: 0 0 20px 0;
+  outline: inherit;
 }
 /*================= переменная для стиля -art ====================*/
 .contacts-form-art {
@@ -442,6 +444,7 @@
   height: 170px;
   border-radius: 7px;
   margin: 0 0 20px 0;
+  outline: inherit;
 }
 /*================= переменная для стиля -art ====================*/
 .contacts-form-area-art {
@@ -487,6 +490,7 @@
   font-weight: 700;
   border-radius: 10px;
   border: 2px solid transparent;
+  outline: inherit;
 }
 .contacts-form-btn:hover {
   color: #fff;
@@ -557,9 +561,59 @@
   float: left;
 }
 .contacts-social-links {
-  width: 240px;
+  width: 250px;
   height: 44px;
   margin: 0 0 0 26px;
+}
+.contacts-social-links-img1 {
+  width: 46px;
+  height: 46px;
+  background-image: url(/img/twit-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 4px 0 0;
+  outline: inherit;
+}
+.contacts-social-links-img2 {
+  width: 46px;
+  height: 46px;
+  background-image: url(/img/face-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 4px 0 0;
+  outline: inherit;
+}
+.contacts-social-links-img3 {
+  width: 46px;
+  height: 46px;
+  background-image: url(/img/in-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 4px 0 0;
+  outline: inherit;
+}
+.contacts-social-links-img4 {
+  width: 46px;
+  height: 46px;
+  background-image: url(/img/g-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 4px 0 0;
+  outline: inherit;
+}
+.contacts-social-links-img5 {
+  width: 46px;
+  height: 46px;
+  background-image: url(/img/you-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 4px 0 0;
+  outline: inherit;
 }
 .contacts-copiright {
   display: block;
